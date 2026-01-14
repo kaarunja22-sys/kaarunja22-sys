@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #111;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: white;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.sidebar a:hover {
+  color: #ffb6c1;
+}
+
+.main {
+  margin-left: 220px;
+  padding: 30px;
+}
+
+.project {
+  margin-top: 20px;
+}
+
+.project img {
+  width: 250px;
+  border-radius: 10px;
+}
